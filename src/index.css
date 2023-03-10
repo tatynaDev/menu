@@ -6,8 +6,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+.active{
+  color: red;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
